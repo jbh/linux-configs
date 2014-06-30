@@ -1,0 +1,111 @@
+2014-06-29 19:39:20	-->	Eru_ (~josh@host-16-24-2-96.midco.net) has joined #hoctf
+2014-06-29 19:39:20	--	Nicks #hoctf: [@[-z-] @Antibody @Chryyz @Dokujisan @edong23 @Q blitter CMSgt_Bacon Eru_ Galtath JCii8 JJGlyph Ling miss_wong Nesquick Nuparu oknowton tripod zykure2]
+2014-06-29 19:39:20	--	Channel #hoctf: 19 nicks (6 ops, 0 voices, 13 normals)
+2014-06-29 19:39:21	--	Mode #hoctf [+tn]
+2014-06-29 19:39:21	--	Channel created on Wed, 08 Jun 2011 01:08:31
+2014-06-29 19:41:27	-->	Eru_ (~josh@host-16-24-2-96.midco.net) has joined #hoctf
+2014-06-29 19:41:27	--	Nicks #hoctf: [@[-z-] @Antibody @Chryyz @Dokujisan @edong23 @Q blitter CMSgt_Bacon Eru_ Galtath JCii8 JJGlyph Ling miss_wong Nesquick Nuparu oknowton tripod zykure2]
+2014-06-29 19:41:27	--	Channel #hoctf: 19 nicks (6 ops, 0 voices, 13 normals)
+2014-06-29 19:41:29	--	Mode #hoctf [+tn]
+2014-06-29 19:41:29	--	Channel created on Wed, 08 Jun 2011 01:08:31
+2014-06-29 20:11:38	-->	Eru_ (~josh@host-16-24-2-96.midco.net) has joined #hoctf
+2014-06-29 20:11:38	--	Topic for #hoctf is "House of CTF :: http://www.hoctf.com/ :: <edong23> its my mother fucking birthday mother fuckers"
+2014-06-29 20:11:38	--	Topic set by Dokujisan on Sun, 29 Jun 2014 00:42:39
+2014-06-29 20:11:38	--	Nicks #hoctf: [@[-z-] @Antibody @Chryyz @Dokujisan @edong23 @Q blitter CMSgt_Bacon Eru_ Galtath JCii8_ JJGlyph Ling mintox miss_wong Nuparu oknowton tripod zykure2]
+2014-06-29 20:11:38	--	Channel #hoctf: 19 nicks (6 ops, 0 voices, 13 normals)
+2014-06-29 20:11:40	--	Mode #hoctf [+tn]
+2014-06-29 20:11:40	--	Channel created on Wed, 08 Jun 2011 01:08:31
+2014-06-29 20:25:40	<--	miss_wong (~Amor@112.198.245.241) has quit (Read error: Connection reset by peer)
+2014-06-29 20:28:24	-->	miss_wong (~Amor@222.127.48.131) has joined #hoctf
+2014-06-29 20:31:51	-->	Samual (~dioteckte@c-24-3-185-118.hsd1.pa.comcast.net) has joined #hoctf
+2014-06-29 20:54:22	<--	mintox (~mintox@c-67-164-130-27.hsd1.nm.comcast.net) has quit (Ping timeout)
+2014-06-29 21:07:32	-->	mintox (~mintox@c-67-164-130-27.hsd1.nm.comcast.net) has joined #hoctf
+2014-06-29 21:12:49	@Chryyz	Well
+2014-06-29 21:13:01	@Chryyz	Haven't gotten dispatch figured out, but I consolidated file handling.
+2014-06-29 21:14:16	@Chryyz	Dokujisan, you work out argparse yet?
+2014-06-29 21:18:08	-->	dizzy (~dizzy@53-138-42-72.gci.net) has joined #hoctf
+2014-06-29 21:21:18	@Dokujisan	Chryyz: never messed with it
+2014-06-29 21:23:40	@edong23	Dokujisan: you didnt tell me happy birthday on facebook mother fucker
+2014-06-29 21:25:07	@Chryyz	edong23, he was waiting for you to blow out his candle, so he could blow yours.
+2014-06-29 21:25:14	@Dokujisan	there
+2014-06-29 21:25:26	@Chryyz	Dokujisan, it confused the fuck out of me.
+2014-06-29 21:25:29	@Chryyz	Take a look at it.
+2014-06-29 21:25:39	@Chryyz	I wanted to use it for that one irc script I wrote.
+2014-06-29 21:33:32	@Dokujisan	Chryyz: what sort of arguments were you wanting to pass to it?
+2014-06-29 21:35:44	@Chryyz	https://bitbucket.org/Chryyz/hexchat-scripts/src/af1c5ed460442e2a9add0c3ac1bece2878ecd325/relapsewb.py?at=master
+2014-06-29 21:35:48	@Chryyz	'member that?
+2014-06-29 21:36:30	@Chryyz	The idea would have been to remove the try statement after the dispatch table
+2014-06-29 21:38:12	@Chryyz	The actual dispatch table was CUdyin's contribution I think.
+2014-06-29 21:38:38	@Chryyz	Either that or I completely forgot the process of implementing functions in dicts and relearned it a couple days ago. Heh.
+2014-06-29 21:46:10	@Dokujisan	oh you haven't added argparse yet
+2014-06-29 21:46:30	@Dokujisan	ok
+2014-06-29 21:46:41	@Chryyz	Well I won't
+2014-06-29 21:46:46	@Chryyz	Because I don't use hexchat anymore.
+2014-06-29 21:46:52	@Dokujisan	I was gonna ask what hexchat is
+2014-06-29 21:47:13	@Chryyz	But I couldn't add argparse, because it confused me, and I couldn't find any comprehensive guide to writing one
+2014-06-29 21:47:17	@Chryyz	Just a bunch of examples.
+2014-06-29 21:47:26	@Chryyz	Which didn't work the way I tried to apply them.
+2014-06-29 21:47:46	@Chryyz	Hexchat is a fork of XChat2, which is dead.
+2014-06-29 21:47:54	@Dokujisan	this has some simple examples.. https://docs.python.org/2/howto/argparse.html
+2014-06-29 21:48:15	@Chryyz	Dokujisan, I don't write 2 :P
+2014-06-29 21:48:35	@Dokujisan	https://docs.python.org/3/howto/argparse.html
+2014-06-29 21:48:36	@Dokujisan	:-P
+2014-06-29 21:48:37	@Chryyz	ULERNPYTHON3NAOOKAY!?
+2014-06-29 21:49:11	@Dokujisan	doesn't look like the tutorial examples changed between 2 and 3
+2014-06-29 21:50:04	@Chryyz	Sure they did
+2014-06-29 21:50:07	@Chryyz	See this?
+2014-06-29 21:50:09	@Chryyz	print("verbosity turned on")
+2014-06-29 21:50:34	@Chryyz	    print "verbosity turned on"
+2014-06-29 21:50:37	@Chryyz	:O
+2014-06-29 21:52:35	@Dokujisan	yeah but not the base functionality
+2014-06-29 21:54:50	@Chryyz	Well those examples seem pretty simple.
+2014-06-29 21:54:59	@Dokujisan	so I guess you could expand that dispatch table dictionary to include the argument details and then run parser.add_argument() on each
+2014-06-29 21:55:12	@Chryyz	Pretty sure I read through all this stuff when I was writing the script and still fucked it anyway.
+2014-06-29 21:55:19	@Dokujisan	I imagine that whole try/catch block would be replaced by argparse
+2014-06-29 21:55:58	@Chryyz	Dokujisan, that's what it's meant to do
+2014-06-29 21:56:11	@Dokujisan	and arg_check()
+2014-06-29 21:56:12	@Chryyz	There's another module that handles arguments too
+2014-06-29 21:56:38	@Chryyz	optparse
+2014-06-29 21:56:41	@Chryyz	And...
+2014-06-29 21:56:42	@Dokujisan	ok what are you asking me? I thought you were wanting ideas on implementing it in your existing script
+2014-06-29 21:57:29	@Chryyz	And getopt
+2014-06-29 21:57:32	@Chryyz	:P
+2014-06-29 21:57:41	@Chryyz	I was just asking if you'd messed with it.
+2014-06-29 21:57:48	@Chryyz	So I could pick your brain if I needed to.
+2014-06-29 21:58:13	@Dokujisan	I haven't
+2014-06-29 21:58:16	@Chryyz	CUdyin was kinda like "fuck this shit. you figure it out"
+2014-06-29 21:58:21	@Dokujisan	haha
+2014-06-29 22:01:44	@Chryyz	Dokujisan, you're in for a treat when you start using threads and butting heads with GIL.
+2014-06-29 22:02:01	@Dokujisan	yeah.... hello Golang
+2014-06-29 22:03:05	@Chryyz	NO!
+2014-06-29 22:03:09	@Dokujisan	haha
+2014-06-29 22:03:12	@Chryyz	YOU STICK WITH PYTHON AND FEEL MY PAIN!
+2014-06-29 22:03:48	@Chryyz	On a more serious note, the retardation with threads in python is pushing me ever closer to learning C
+2014-06-29 22:07:36	@edong23	wtf
+2014-06-29 22:07:50	@edong23	yuou are complaining about python and saying you are goign to learn c?
+2014-06-29 22:09:04	-->	roboman2444 (~roboman24@pylortes.merrimack.edu) has joined #hoctf
+2014-06-29 22:09:57	@Chryyz	edong23, just its parallel processing capabilities.
+2014-06-29 22:12:57	@Chryyz	Whoa
+2014-06-29 22:13:03	@Chryyz	Did they update python.org?
+2014-06-29 22:13:04	@Chryyz	Spiffy.
+2014-06-29 22:13:10	@Dokujisan	yeah
+2014-06-29 22:13:21	@Dokujisan	like 6 months ago or something
+2014-06-29 22:15:00	@Chryyz	I was reading an article the other day about how python sites are generally ugly as sin.
+2014-06-29 22:15:06	@Chryyz	While Ruby's sites are beautific.
+2014-06-29 22:18:10	@Chryyz	Alright
+2014-06-29 22:18:13	@Chryyz	Going to sleep.
+2014-06-29 22:18:49	@Chryyz	Happy birthday, edong23.
+2014-06-29 22:19:13	@Chryyz	My gift to you is a ticket for exclusive rights to Dokujisan's bum for a whole week.
+2014-06-29 22:19:16	@Chryyz	Enjoy.
+2014-06-29 22:19:49	 *	Chryyz hands edong23 a hastily scrawled ticket printed on toilet paper.
+2014-06-29 22:19:57	@Chryyz	Oh, and you can use that to wipe afterward.
+2014-06-29 22:20:05	 *	Chryyz tips his hat and goes to bed.
+2014-06-29 22:29:40	<--	roboman2444 (~roboman24@pylortes.merrimack.edu) has quit (Ping timeout)
+2014-06-29 22:51:39	--	irc: disconnected from server
+2014-06-29 22:51:59	-->	Eru_ (~josh@host-16-24-2-96.midco.net) has joined #hoctf
+2014-06-29 22:51:59	--	Topic for #hoctf is "House of CTF :: http://www.hoctf.com/ :: <edong23> its my mother fucking birthday mother fuckers"
+2014-06-29 22:51:59	--	Topic set by Dokujisan on Sun, 29 Jun 2014 00:42:39
+2014-06-29 22:51:59	--	Nicks #hoctf: [@[-z-] @Antibody @Chryyz @Dokujisan @edong23 @Q blitter CMSgt_Bacon dizzy Eru_ Galtath JCii8_ JJGlyph Ling mintox miss_wong Nuparu oknowton Samual tripod zykure2]
+2014-06-29 22:51:59	--	Channel #hoctf: 21 nicks (6 ops, 0 voices, 15 normals)
+2014-06-29 22:52:08	--	Mode #hoctf [+tn]
+2014-06-29 22:52:08	--	Channel created on Wed, 08 Jun 2011 01:08:31
