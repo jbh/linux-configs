@@ -7,3 +7,5 @@
 
 /weechat/.weechat/logs
 !/weechat/.weechat/logs/.gitkeep
+
+/weechat/.weechat/weechat.log
